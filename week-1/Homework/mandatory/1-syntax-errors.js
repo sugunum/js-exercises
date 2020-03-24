@@ -4,6 +4,8 @@ function addNumbers(a b c) {
     return a + b + c;
 }
 
+function
+
 function introduceMe(name, age)
 return "Hello, my name is " + name "and I am " age + "years old";
 
