@@ -42,3 +42,7 @@ let writers = [
 /*
 If you want an extra challenge, only `console.log()` the writers that are alive.
 */
+
+writers.forEach ( e =>{
+  return console.log( 'Hi, my name is ${e.firstName} ${e.lastName}. I am ${e.age} years old, and work as a ${e.occupation}.')
+})
