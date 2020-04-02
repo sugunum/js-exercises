@@ -14,8 +14,9 @@
  * </div>
  */
 function exerciseOne(arrayOfPeople) {
-  let content = document.querySelector("#content");
-}
+  let content = document.querySelector("#content")
+
+  burada degisiklik
 
 /**
  *
