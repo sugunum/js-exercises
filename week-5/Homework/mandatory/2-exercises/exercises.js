@@ -15,8 +15,14 @@
  */
 function exerciseOne(arrayOfPeople) {
   let content = document.querySelector("#content")
+  let x = document.createElement("h1");
+  let y = document.createElement("h2");
+  let t = document.createTextNode("name: Chris");
+  let q = document.createTextNode("job: Teacher");
+  x.appendChild(t);
+  document.body.appendChild(x);
 
-  burada degisiklik
+
 
 /**
  *
@@ -80,9 +86,18 @@ let people = [
 
 exerciseOne(people);
 
+
+
+
+
 let shopping = ["Milk", "Break", "Eggs", "A Dinosaur", "Cake", "Sugar", "Tea"];
 
 exerciseTwo(shopping);
+
+
+
+
+
 
 const books = [
   {
