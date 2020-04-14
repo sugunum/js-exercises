@@ -11,9 +11,10 @@ function mood() {
   }
 }
 
+
 function greaterThan10() {
   let num = 10;
-  let isBigEnough;
+  let isBigEnough = 20;
 
   if (isBigEnough) {
     return "num is greater than or equal to 10";
@@ -21,6 +22,7 @@ function greaterThan10() {
     return "num is not big enough";
   }
 }
+
 
 function sortArray() {
   let letters = ["a", "n", "c", "e", "z", "f"];
@@ -69,14 +71,18 @@ function arraysEqual(a, b) {
 }
 
 test("mood function works", mood() === "I am not happy");
+
 test(
   "greaterThanTen function works",
   greaterThan10() === "num is greater than or equal to 10"
 );
+
 test(
   "sortArray function works",
   arraysEqual(sortArray(), ["a", "c", "e", "f", "n", "z"])
 );
+
+
 test("first5 function works", arraysEqual(first5(), [1, 2, 3, 4, 5]));
 
 test(
